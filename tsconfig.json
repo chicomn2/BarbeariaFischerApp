@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "target": "es6",                     
+    "module": "commonjs",                
+    "jsx": "react",                       // Habilita suporte ao JSX em arquivos .tsx
+    "strict": true,                       
+    "esModuleInterop": true,              
+    "skipLibCheck": true,                 
+    "forceConsistentCasingInFileNames": true,
+    "moduleResolution": "node",
+    "allowJs": true,
+    "noEmit": true
+  },
+  "include": ["src/**/*", "App.tsx"],
+  "exclude": ["node_modules", "android", "ios"]
+}
